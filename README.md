@@ -10,9 +10,9 @@ https://your-streamlit-app-link
 
 Or run locally:
 
-```bash
+
 streamlit run app.py
----
+----
 
 ## 📌 Project Overview
 
