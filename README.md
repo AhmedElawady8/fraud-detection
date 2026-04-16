@@ -4,10 +4,16 @@ A machine learning web application that detects fraudulent financial transaction
 
 ---
 
+```md
 ## 🚀 Live Demo
 
-> Run locally with: `streamlit run app.py`
+You can try the live application here:  
+https://your-streamlit-app-link
 
+Or run locally:
+
+```bash
+streamlit run app.py
 ---
 
 ## 📌 Project Overview
