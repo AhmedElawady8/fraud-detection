@@ -3,8 +3,6 @@
 A machine learning web application that detects fraudulent financial transactions in real time using an **XGBoost classifier** trained on highly imbalanced payment data.
 
 ---
-
-```md
 ## 🚀 Live Demo
 
 You can try the live application here:  
