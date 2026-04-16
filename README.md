@@ -76,6 +76,18 @@ FRAUD_DETECTION/
 
 
 
+##  Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Python 3.x | Core language |
+| Pandas / NumPy | Data manipulation |
+| Scikit-learn | ML models, preprocessing, metrics |
+| XGBoost | Best performing classifier |
+| Joblib | Model serialization |
+| Streamlit | Web app deployment |
+| Matplotlib / Seaborn | Visualization |
+
 ## 📦 Dataset
 
 The dataset used is the **PaySim Synthetic Financial Dataset** available on Kaggle:
@@ -91,15 +103,3 @@ Fraud.csv
 ```
 
 ---
-
-## 🏗️ Tech Stack
-
-| Tool | Purpose |
-|---|---|
-| Python 3.x | Core language |
-| Pandas / NumPy | Data manipulation |
-| Scikit-learn | ML models, preprocessing, metrics |
-| XGBoost | Best performing classifier |
-| Joblib | Model serialization |
-| Streamlit | Web app deployment |
-| Matplotlib / Seaborn | Visualization |
