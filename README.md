@@ -6,7 +6,7 @@ A machine learning web application that detects fraudulent financial transaction
 ## 🚀 Live Demo
 
 You can try the live application here:  
-https://your-streamlit-app-link
+[https://your-streamlit-app-link](https://fraudd-detection.streamlit.app/)
 
 Or run locally:
 
