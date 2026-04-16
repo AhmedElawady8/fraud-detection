@@ -1,4 +1,4 @@
-# 🛡️ Fraud Detection System
+# Fraud Detection System
 
 A machine learning web application that detects fraudulent financial transactions in real time using an **XGBoost classifier** trained on highly imbalanced payment data.
 
@@ -34,7 +34,7 @@ FRAUD_DETECTION/
 
 ---
 
-## 🧠 ML Pipeline (Notebook)
+## ML Pipeline (Notebook)
 
 ### 1. Exploratory Data Analysis
 - Transaction amount distribution (log scale)
@@ -74,48 +74,7 @@ FRAUD_DETECTION/
 | PR-AUC | **0.8512** |
 | Fraud Recall | ≥ 90% |
 
----
 
-## 🖥️ Streamlit App Features
-
-### 🔍 Prediction Tab
-- Input transaction details (type, amount, balances, flags) via sidebar
-- Returns **FRAUD / LEGITIMATE** verdict with confidence score and visual bar
-- Shows all engineered features used for the prediction
-
-### 📊 Model Performance Tab
-- Side-by-side model comparison table
-- ROC Curve & Precision-Recall Curve (XGBoost)
-- Confusion matrix visualization
-
-### ℹ️ About Tab
-- Full model card (algorithm, threshold, training strategy, feature count)
-- Feature engineering explanation
-- How-to-use instructions
-
----
-
-## ⚙️ Installation & Usage
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/fraud-detection.git
-cd fraud-detection
-```
-
-### 2. Install dependencies
-```bash
-pip install streamlit scikit-learn xgboost joblib pandas numpy matplotlib seaborn
-```
-
-### 3. Run the app
-```bash
-streamlit run app.py
-```
-
-> ⚠️ Make sure `best_fraud_model.pkl` is in the same folder as `app.py`
-
----
 
 ## 📦 Dataset
 
@@ -144,22 +103,3 @@ Fraud.csv
 | Joblib | Model serialization |
 | Streamlit | Web app deployment |
 | Matplotlib / Seaborn | Visualization |
-
----
-
-## 📁 .gitignore (recommended)
-
-```
-Fraud.csv
-*.csv
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-.env
-```
-
----
-
-## 👤 Author
-
-> Portfolio Project — Built with Streamlit & XGBoost
